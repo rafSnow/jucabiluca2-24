@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 # Carrega o modelo
 model = YOLO("best.pt")
-
+#qqq
 @app.route('/process-image', methods=['POST'])
 def process_image():
     if 'file' not in request.files:
